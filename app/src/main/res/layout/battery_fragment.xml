@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="@color/flow_blue">
+
+        <Button
+            android:id="@+id/battery_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/arrow_back_main"
+            android:text="@string/batmajor"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:drawablePadding="10dp"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp" />
+
+        <RelativeLayout
+            android:layout_below="@id/battery_back"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_power_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="53"
+                android:textSize="90sp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_power_unit"
+                android:layout_toRightOf="@id/tv_power_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="26dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_wait_time"
+                android:layout_below="@id/tv_power_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可待机"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp" />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_power_rank"
+                android:layout_below="@id/tv_wait_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:clickable="true"
+                android:background="@drawable/antivirus_item_selecter">
+
+                <TextView
+                    android:id="@+id/tv_power_rank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/battery_rinking_text"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"/>
+
+                <ImageView
+                    android:layout_toRightOf="@+id/tv_power_rank"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/arrow_white"
+                    android:layout_centerVertical="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bat_blue"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_tem_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/battery_temp"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_tag"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:id="@+id/tv_tem"
+                    android:layout_below="@+id/tv_tem_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="26℃"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"/>
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="50dp"
+                    android:background="@color/ban_white"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_3G_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_tag"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:id="@+id/tv_3G"
+                    android:layout_below="@+id/tv_3G_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"/>
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="50dp"
+                    android:background="@color/ban_white"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_wifi_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wifi"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_tag"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:id="@+id/tv_wifi"
+                    android:layout_below="@+id/tv_wifi_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/rl_battery_sleep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/tv_sleep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_sleep_text"
+                android:textSize="16sp"
+                android:textColor="@color/text_gray"
+                android:layout_centerVertical="true" />
+
+            <ImageView
+                android:id="@+id/iv_sleep_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/switch_close"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/bt_power_saving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/saveelec"
+            android:textSize="16sp"
+            android:textColor="@color/text_gray"
+            android:background="@drawable/bg_cancel_selector"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp" />
+    </RelativeLayout>
+
+</LinearLayout>

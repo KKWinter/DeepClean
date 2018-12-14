@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="umeng_common_action_info_exist">डाउनलोड होने के नाते।</string>
+    <string name="umeng_common_info_interrupt">त्रुटि मित्र डाउनलोड नेटवर्क की जांच और जारी रखें।</string>
+    <string name="umeng_common_action_pause">ठहराव</string>
+    <string name="umeng_common_action_continue">जारी रखें</string>
+    <string name="umeng_common_action_cancel">रद्द करना</string>
+    <string name="umeng_common_download_notification_prefix">डाउनलोडिंग:</string>
+    <string name="umeng_common_pause_notification_prefix">रोकें:</string>
+    <string name="umeng_common_start_download_notification">अनुप्रयोग डाउनलोड</string>
+    <string name="umeng_common_start_patch_notification">स्थापना पैकेज अपडेट कर रहा है</string>
+    <string name="umeng_common_network_break_alert">नेटवर्क से कनेक्ट करने और फिर प्रयास करें!</string>
+    <string name="umeng_common_download_failed">डाउनलोड विफल</string>
+    <string name="umeng_common_download_finish">डाउनलोड पूरा हो गया है, स्थापित करने के लिए क्लिक करें</string>
+    <string name="umeng_common_patch_finish">अद्यतन पूरा हो गया है, स्थापित करने के लिए क्लिक करें</string>
+    <string name="umeng_common_silent_download_finish">नए संस्करण के लिए तैयार है, स्थापित करने के लिए क्लिक करें</string>
+    <string name="umeng_common_icon">चिह्न</string>
+</resources>

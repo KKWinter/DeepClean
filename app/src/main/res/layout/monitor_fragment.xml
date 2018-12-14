@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical"
+        android:background="@color/flow_blue">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/monitor_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/arrow_back_main"
+                android:text="@string/flow"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:drawablePadding="10dp"
+                android:background="@null"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:id="@+id/monitor_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="90sp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/monitor_least"
+                android:layout_toRightOf="@+id/monitor_num"
+                android:layout_alignTop="@+id/monitor_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_des1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flow_des1"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp" />
+
+        <TextView
+            android:id="@+id/tv_des2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flow_des2"
+            android:textSize="14sp"
+            android:textColor="@color/ban_white"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tv_des3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flow_des3"
+            android:textSize="14sp"
+            android:textColor="@color/ban_white"
+            android:layout_marginLeft="40dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/monitor_rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:clickable="true"
+            android:background="@drawable/antivirus_item_selecter">
+
+            <TextView
+                android:id="@+id/tv_rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flow_rank"
+                android:textSize="16sp"
+                android:textColor="@color/text_gray"
+                android:layout_centerVertical="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_over"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/bt_monitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/flow_setting"
+            android:textSize="16sp"
+            android:textColor="@color/text_gray"
+            android:background="@drawable/bg_cancel_selector"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

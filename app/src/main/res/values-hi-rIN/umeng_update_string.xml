@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="UMBreak_Network">कोई इंट्रानेट</string>
+    <string name="UMUpdateTitle">नए संस्करण की खोज</string>
+    <string name="UMNewVersion">नवीनतम संस्करण:</string>
+    <string name="UMUpdateContent">अपडेट</string>
+    <string name="UMUpdateSize">केवल डाउनलोड करने की जरूरत है:</string>
+    <string name="UMTargetSize">नए संस्करण का आकार:</string>
+    <string name="UMGprsCondition">(सुझाव: गैर वाईफ़ाई पर्यावरण)</string>
+    <string name="UMUpdateNow">अब अद्यतन</string>
+    <string name="UMAppUpdate">आवेदन अपडेट</string>
+    <string name="UMNotNow">एक बाद की तारीख</string>
+    <string name="UMIgnore">संस्करण पर ध्यान न दें</string>
+    <string name="UMToast_IsUpdating">यह अद्यतन किया जाता है ....</string>
+    <string name="UMDialog_InstallAPK">नवीनतम संस्करण स्थापित है, डाउनलोड किया गया है?</string>
+    <string name="UMUpdateCheck">2.6.0.1.20150312</string>
+</resources>

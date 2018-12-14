@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RingView">
+        <attr name="radius" format="dimension" />
+        <attr name="circleColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FragmentItemView">
+        <attr name="isfinish" format="reference"></attr>
+        <attr name="des" format="string"></attr>
+        <attr name="count" format="string"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="FragmentTitleView">
+        <attr name="isMenu" format="boolean"></attr>
+    </declare-styleable>
+
+</resources>

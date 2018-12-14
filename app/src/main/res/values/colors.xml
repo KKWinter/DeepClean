@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="ban_transparent">#11000000</color>
+
+
+    <color name="blue">#20CAF8</color>
+    <color name="orange">#EE630E</color>
+    <color name="green">#33C169</color>
+
+
+    <color name="ban_bg_blue">#66619CE4</color>
+
+    <color name="main_tab_radio_off">#8d8d8d</color>
+    <color name="main_tab_radio_on">#619CE4</color>
+    <color name="color_cir">#69ACFF</color>
+    <color name="color_ringcir">#80BAFF</color>
+    <color name="color_line_cir">#80B9FF</color>
+    <color name="color_drawable_cir">#7DB7FF</color>
+    <color name="color_but">#619CE4</color>
+    <color name="color_app_cir">#70F5A3</color>
+    <color name="color_app_outcir">#3F5C4A</color>
+    <color name="bg_circle_blue">#3BCCD9</color>
+    <color name="bg_circle_green">#3FD295</color>
+
+    <!-- 首界面的背景色-->
+    <color name="bg_green">#50B018</color>
+    <!-- 半透明的green-->
+    <color name="ban_bg_green">#6650B018</color>
+
+    <!-- 首界面按钮的字体颜色-->
+    <color name="text_black">#565656</color>
+    <!-- 首界面描述字体颜色-->
+    <color name="text_white">#b5daa5</color>
+
+    <!-- 展示条目字体颜色-->
+    <color name="text_gray">#565656</color>
+    <!-- 设置透明度-->
+    <color name="ban_gray">#88313131</color>
+
+    <!-- 白色-->
+    <color name="white">#ffffff</color>
+    <color name="ban_white">#99ffffff</color>
+
+    <!-- 半透明白色-->
+    <color name="tag_white">#c8e4bf</color>
+    <color name="show_white">#c3e1b8</color>
+    <color name="button_gray">#8b8b8b</color>
+
+    <!-- 浅浅的灰色-->
+    <color name="gray">#226c6c6c</color>
+
+    <color name="view_gray">#446c6c6c</color>
+
+    <color name="btn_gray">#886c6c6c</color>
+
+    <!-- 蓝色背景-->
+    <color name="flow_blue">#00a1ea</color>
+
+    <color name="flow_rank_blue">#4400a1ea</color>
+
+    <color name="bg_blue">#619CE4</color>
+
+    <color name="btn_border">#dfdfdf</color>
+
+    <!-- 电量优化 -->
+    <color name="bat_blue">#23aeec</color>
+    <color name="text_tag">#90d0f3</color>
+
+    <!--充电电量-->
+    <color name="light_green">#00ff00</color>
+    <color name="charge_bg_blue">#00a0e9</color>
+    <color name="light_blue">#28bcff</color>
+</resources>

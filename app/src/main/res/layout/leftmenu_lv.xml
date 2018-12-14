@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#20CAF8">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="3dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/leftmenu_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@drawable/transparent"
+            android:scrollbars="none"
+            android:visibility="visible"></ListView>
+    </FrameLayout>
+
+
+    <!--     <TextView  -->
+    <!--         style="@style/menu_item" -->
+    <!--         android:text="CPU降温" -->
+    <!--         android:drawableLeft="@drawable/menu_a" -->
+    <!--         /> -->
+    <!--     <TextView  -->
+    <!--         style="@style/menu_item" -->
+    <!--         android:text="流量监控" -->
+    <!--         android:drawableLeft="@drawable/menu_b" -->
+    <!--         /> -->
+    <!--     <TextView  -->
+    <!--         style="@style/menu_item" -->
+    <!--         android:text="照片管家" -->
+    <!--         android:drawableLeft="@drawable/menu_c" -->
+    <!--         /> -->
+    <!--     <TextView  -->
+    <!--         style="@style/menu_item" -->
+    <!--         android:text="空间管理" -->
+    <!--         android:drawableLeft="@drawable/menu_d" -->
+    <!--         /> -->
+    <!--     <TextView  -->
+    <!--         style="@style/menu_item" -->
+    <!--         android:text="超强省电" -->
+    <!--         android:drawableLeft="@drawable/menu_e" -->
+    <!--         /> -->
+    <!--     <TextView  -->
+    <!--         style="@style/menu_item" -->
+    <!--         android:text="游戏加速" -->
+    <!--         android:drawableLeft="@drawable/menu_f" -->
+    <!--         /> -->
+    <!--     <TextView  -->
+    <!--         style="@style/menu_item" -->
+    <!--         android:text="开启隐私保护" -->
+    <!--         android:drawableLeft="@drawable/menu_g" -->
+    <!--         /> -->
+
+</LinearLayout>

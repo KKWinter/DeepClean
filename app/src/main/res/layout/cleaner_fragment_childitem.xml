@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_childicon"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/tv_childtitle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_childicon"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:text="BackPack"
+        android:textSize="15sp"
+        android:textColor="@android:color/darker_gray" />
+
+    <!--android:focusable="false"
+   android:focusableInTouchMode="false"
+   android:clickable="false"告知此checkbox不能响应点击事件,跟是否显示选中勾没有关系 -->
+    <CheckBox
+        android:id="@+id/cb_ischecked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:checked="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:button="@drawable/app_checkbox_seletor" />
+
+    <TextView
+        android:id="@+id/tv_childcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/cb_ischecked"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:text="32MB"
+        android:textSize="15sp"
+        android:textColor="@android:color/darker_gray" />
+
+</RelativeLayout>

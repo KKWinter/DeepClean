@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrashClear</string>
+
+    <!--     MainActivity -->
+    <string name="main">होम</string>
+    <string name="clean">को हटाने से मना</string>
+    <string name="app">अनुप्रयोग प्रबंधन</string>
+    <string name="battery">बैटरी प्रबंधक</string>
+    <string name="hint">शीघ्र सूचना</string>
+    <string name="hintmessage">सुनिश्चित करें कि आप से बाहर निकलें करने के लिए चाहते हैं?</string>
+    <string name="confirm">की जाँच करें</string>
+    <string name="cancel">रद्द कर</string>
+
+    <!-- 	SlidingMenu -->
+    <string name="cpu">सीपीयू शीतलन</string>
+    <string name="monitoring">डेटा अनुश्रवण</string>
+    <string name="photograph">तस्वीरें प्रबंधक</string>
+    <string name="spacemanagement">स्थान प्रबंधन</string>
+    <string name="savingpower">सुपर पॉवर-बचत</string>
+    <string name="gramefaster">खेल में तेजी लाने क</string>
+    <string name="secretprotection">खुला गोपनीयत</string>
+
+    <!-- 	MainFragment -->
+
+    <!-- 布局中用到的-->
+    <string name="speed">क्लीनअप गत</string>
+    <string name="batmajor">पावर आशावादी होना</string>
+    <string name="appliction">सॉफ्टवेयर प्रबंधन</string>
+    <string name="virus">वायरस स्कैन</string>
+    <string name="flow">डेटा निगरान</string>
+    <string name="more">अधिक</string>
+    <string name="gift">उपहार</string>
+    <string name="more_des">अधिक सुविधाओं, देखते रहें</string>
+
+    <string name="quit">रद्द कर</string>
+
+    <string name="unit">%</string>
+    <string name="over1">स्मृति उपयोग ऑप्टिमाइज़ करें</string>
+    <string name="over2">जंक फ़ाइल स्वच्छ पूरा सिस्टम</string>
+    <string name="over3">फोन तापमान</string>
+    <string name="overmajor">पूर्ण आशावादी होना</string>
+    <string name="completed">समाप्त कर</string>
+
+    <!-- java类中的-->
+    <string name="checking">का पता लगाने क</string>
+    <string name="recheck">पुनः परीक्षण</string>
+    <string name="checking_des_f">जाँच, कृपया प्रतीक्षा करें...</string>
+    <string name="checking_des_s">का पता लगाया जा रहा है, कृपया प्रतीक्षा करें...</string>
+    <string name="checking_des_t">अंतिम अनुकूलन को रद्द कर दिया गया है, प्रस्तावित पुनः परीक्षण</string>
+
+    <string name="majorization">अनुकूलना</string>
+    <string name="major_des_g">अच्छी हालत में सेल फोन, इष्टतमीकरण  सुझाव</string>
+    <string name="major_des_b">मोबाइल खराब हालत में है, इष्टतमीकरण  सुझाव</string>
+    <string name="des_unit">चीज</string>
+
+    <string name="majoring">इष्टतमीकरण</string>
+    <string name="overmajorizate">स्मृति स्कैन कर रहा है...</string>
+    <string name="rubbishcleaned">द्रुतिका  स्मृति स्कैनिंग...</string>
+    <string name="temperature">फ़ोन के तापमान का पता लगाने के...</string>
+
+    <string name="MajoredCount">अनुकूलन के एक नंबर का समापन:</string>
+
+    <string name="majored">आशावादी होना किया गया ह</string>
+    <string name="hasMajored">अंतिम अनुकूलित: आज</string>
+
+    <!-- 	CleanFragment -->
+    <string name="check">का पता लगाने के...</string>
+    <string name="cleanning">सफाई</string>
+    <string name="status">सबसे अच</string>
+    <string name="clicktoclean">एक-क्लिक क्लीनअप</string>
+    <string name="cleanable">साफ़ कर</string>
+    <string name="overclean">साफ</string>
+    <string name="rubbishfile">कबाड़ फ़ाइल</string>
+
+    <string name="groupname1">स्मृति अपशिष</string>
+    <string name="groupname2">सिस्टम कैश</string>
+    <string name="groupname3">आवेदन कैश</string>
+    <string name="groupname4">बेकार स्थापना पैकेज</string>
+    <string name="groupname5">कबाड़ फ़ाइल</string>
+
+
+    <!--    AppFragment -->
+    <string name="userapp">उपयोगकर्ता अनुप्रयोग</string>
+    <string name="sysapp">सिस्टम अनुप्रयोग</string>
+    <string name="app_button_uninstall">की स्थापना रद्द कर</string>
+    <string name="app_button_backup">बैकअप</string>
+    <string name="noChoice">किसी भी आवेदन का चयन न करें!</string>
+
+
+    <!-- 	BatteryFragment -->
+    <string name="battery_temp">तापमान</string>
+    <string name="battery_voltage">वोल्टेज</string>
+    <string name="saveelec">एक क्लिक करें पावर-बचत</string>
+    <string name="alreadysave">पावर की बचत</string>
+    <string name="volume">पावर</string>
+    <string name="time">उपलब्ध समय</string>
+    <string name="call">3 जी टॉक</string>
+    <string name="wifi">वाईफ़ाई इंटरनेट</string>
+    <string name="film">चलचित्र प्लेबैक</string>
+    <string name="standby">खड़े हो सकते हैं</string>
+    <string name="hour">घंट</string>
+    <string name="minute">मिनट</string>
+    <string name="battery_sleep_text">आवृत्ति-ताला निद</string>
+    <string name="battery_rinking_text">पावर रैंकिंग</string>
+    <string name="detail">विवरण पृष्ठ</string>
+
+    <string name="exception_text">असामान्य शक्ति की चेतावन</string>
+    <string name="exception">असामान्य पाउअर की खपत</string>
+    <string name="particulars_transport_text">डेटा संचरण</string>
+    <string name="particulars_cpu_text">CPU उपयोग</string>
+    <string name="particulars_text">पाउअर की खपत विवरण</string>
+    <string name="battery_see">दृश</string>
+    <string name="notify">सिस्टम प्रक्रिया की स्थापना रद्द हो नहीं कर सकता!</string>
+    <string name="see">सिस्टम नहीं देखी जा सकत</string>
+
+    <string name="fen">मिनट</string>
+    <string name="second">सेकंड</string>
+    <string name="millisecond">सुश</string>
+    <string name="consumption">पाउअर उपयोग</string>
+    <string name="charging">तेजी से प्रभार</string>
+    <string name="overtime">शेष समय पूरा कर</string>
+    <string name="over">पूरा चार्ज</string>
+
+    <!--AntivirusFragment-->
+    <!-- 布局中-->
+    <string name="virus_des">आज, सुरक्षा के लिए स्कैनिंग</string>
+    <string name="virus_show1">की सिफारिश की अब स्कैन</string>
+    <string name="trojans">ट्रोजन वायरस</string>
+    <string name="risk">जोखिम आवेदन</string>
+    <string name="notfound">नहीं मिल</string>
+    <string name="startscan">स्कैन प्रारंभ करें</string>
+    <string name="stopscan">इसे रोको</string>
+
+    <!-- java类中-->
+    <string name="virus_tag">जोखिम\nकुल</string>
+    <string name="norisk">कोई जोखिम नहीं</string>
+    <string name="preparing">की तैयारी में</string>
+    <string name="virus_show2">सुरक्षित स्कैन करें</string>
+    <string name="virus_show3">स्कैन रद्द किया गया, कृपया पुन: स्कैन करें</string>
+
+    <string name="notrojans">कोई ट्रोजन वायरस पाया गया</string>
+    <string name="noriskapp">कोई जोखिम नहीं ढूँढ़ाा</string>
+
+    <!--MonitorFragmnet-->
+    <!-- 布局中-->
+    <string name="flow_rank">डेटा रैंक</string>
+    <string name="flow_setting">डेटा सेटिंग</string>
+    <string name="flow_des1">वर्तमान डेट</string>
+    <string name="flow_des2">का प्रयोग करें 0MB</string>
+    <string name="flow_des3">के लिए 0 दिनों शेष दिन</string>
+
+    <string name="flow_top_line">डेटा सीम</string>
+    <string name="avaiable_flow">मुफ्त डेटा प्रवाह दर्ज करें</string>
+    <string name="out_of_date">समय सीमा समाप्ति समय</string>
+    <string name="least_time">शेष 0 दिवस</string>
+    <string name="least">शेष</string>
+    <string name="day">दिवस</string>
+    <string name="start_time">मासिक शुरू तिथिय</string>
+    <string name="time_left">शेष समय</string>
+    <string name="save">सहेज</string>
+
+    <string name="flow_least">MB\nशेष</string>
+
+    <string name="toast1">करने के लिए डेटा प्रदर्शित करें, डेटा प्रवाह को खोलने में असमर</string>
+    <string name="toast2">डेटा प्रवाह चालू होने पर, आप डेटा सेट कर सकते हैं</string>
+    <string name="toast3">डेटा सेट नह</string>
+    <string name="dialog1">नेटवर्क सेटिंग्स युक्तिय</string>
+    <string name="dialog2">नेटवर्क कनेक्शन नहीं खोल रहे हैं, सेट कर रहे हैं?</string>
+    <string name="dialog3">सेट कर</string>
+    <string name="dialog4">रद्द कर</string>
+    <string name="usedflow">पहले से ही डेटा का उपयोग करन</string>
+    <string name="leftday">दिन बचे ह</string>
+    <string name="flowtop">यातायात सीमा रिक्त नहीं हो सकता</string>
+    <string name="let">अतिरिक्त</string>
+
+    <!--morefragment-->
+    <string name="evaluation">स्कोर</string>
+    <string name="notice">सूचना पट्टी खोलें</string>
+    <string name="tickerText">सुरक्षा सेवा प्रारंभ</string>
+    <string name="nosetting">सेट नहीं</string>
+    <string name="used">प्रयुक्त</string>
+    <string name="usedmem">स्मृति पदचिह्न</string>
+
+    <string name="words">Words</string>
+    <string name="app_list_text">textview</string>
+    <string name="title_activity_battery">BatteryActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_battery_ranklist">BatteryRanklistActivity</string>
+    <string name="title_activity_particulars">ParticularsActivity</string>
+    <string name="title_activity_service_usb">ServiceUSBActivity</string>
+    <string name="title_activity_succeed">SucceedActivity</string>
+
+    <string name="left">बाएं</string>
+    <string name="hr">घंट</string>
+    <string name="min">मिनट</string>
+
+
+</resources>

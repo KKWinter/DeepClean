@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray">
+
+        <Button
+            android:id="@+id/flow_rank_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/arrow_back_trunk"
+            android:text="@string/flow_rank"
+            android:textSize="16sp"
+            android:textColor="@color/text_gray"
+            android:drawablePadding="10dp"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray" />
+
+    //点击弹出下拉框的布局，暂时隐藏掉
+    <!--<RelativeLayout
+        android:id="@+id/rl_sum_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_rank_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当天数据流量 24KB"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_down"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/tv_rank_des"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray"
+        />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 加一个旋转进度条试一下-->
+        <ProgressBar
+            android:id="@+id/pb_flowrank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progressbar" />
+
+        <ListView
+            android:id="@+id/lv_flow_rank"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:layout_marginRight="15dp"-->
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cloudtech.tools.com.catchgift.tools.batteryfragment.activity.ParticularsActivity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/particulars_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray">
+
+        <Button
+            android:id="@+id/power_detail_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/arrow_back_trunk"
+            android:text="@string/detail"
+            android:textSize="16sp"
+            android:textColor="@color/text_gray"
+            android:drawablePadding="10dp"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:id="@+id/particulars_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/particulars_title">
+
+        <ImageView
+            android:id="@+id/particulars_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/particulars_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/particulars_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/particulars_image"
+            android:text="@string/app_list_text"
+            android:textSize="20sp" />
+
+        <com.catchgift.trashclear.view.MonitorProgressBar
+            android:id="@+id/particulars_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_toRightOf="@+id/particulars_image"
+            android:layout_below="@+id/particulars_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:max="100"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/particulars_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/particulars_relative"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/particulars_uninstall"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_uninstall"
+            android:textColor="@color/white"
+            android:text="@string/app_button_uninstall" />
+
+        <Button
+            android:id="@+id/particulars_see"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_see"
+            android:textColor="@color/text_gray"
+            android:text="@string/battery_see" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/particulars_line"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#EBEBEB" />
+
+    <TextView
+        android:id="@+id/particulars_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/particulars_text" />
+
+    <RelativeLayout
+        android:id="@+id/text_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/particulars_text"
+        android:layout_margin="20dp"
+        android:textColor="#BFBFBF">
+
+        <TextView
+            android:id="@+id/particulars_text_cpu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#BFBFBF"
+            android:textSize="16sp"
+            android:text="@string/particulars_cpu_text" />
+
+        <TextView
+            android:id="@+id/particulars_cpu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="250毫秒"
+            android:textColor="#BFBFBF"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/text_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/text_relative"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#EBEBEB"
+        android:orientation="horizontal" />
+
+
+    <RelativeLayout
+        android:id="@+id/exception_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_line"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/exception_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exception_text" />
+
+        <ImageView
+            android:id="@+id/exception_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/switch_close" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "1030244282927",
+    "firebase_url": "https://admob-app-id-7017065274.firebaseio.com",
+    "project_id": "admob-app-id-7017065274",
+    "storage_bucket": "admob-app-id-7017065274.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030244282927:android:954ce08ec46521b3",
+        "android_client_info": {
+          "package_name": "com.catchgift.trashclear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030244282927-8c0lr1at0cmjivtoqh65qrm0pkmqb09t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPABKwVFBKUikCdVL_dDG_Yu4R_6Xfgho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030244282927:android:0bc3cd93fdae24c7",
+        "android_client_info": {
+          "package_name": "com.cloudtech.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030244282927-8c0lr1at0cmjivtoqh65qrm0pkmqb09t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPABKwVFBKUikCdVL_dDG_Yu4R_6Xfgho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030244282927:android:ff6fb1ad1955713d",
+        "android_client_info": {
+          "package_name": "com.cloudtech.gift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030244282927-8c0lr1at0cmjivtoqh65qrm0pkmqb09t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPABKwVFBKUikCdVL_dDG_Yu4R_6Xfgho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

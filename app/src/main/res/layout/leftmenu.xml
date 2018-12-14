@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/leftmenu"
+    tools:context=".MainActivity">
+    <!-- 在左侧侧拉条目上面也预设一块帧布局,然后通过fragment去做相应的替换操作 -->
+</FrameLayout>

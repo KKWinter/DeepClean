@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrashClear</string>
+
+    <!--     MainActivity -->
+    <string name="main">Homepage</string>
+    <string name="clean">RubbishClean</string>
+    <string name="app">AppManager </string>
+    <string name="battery">BattManager</string>
+    <string name="hint">Prompt Message:</string>
+    <string name="hintmessage">Are you sure you want to quit?</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- 	SlidingMenu -->
+    <string name="cpu">CPU Cooling</string>
+    <string name="monitoring">Traffic Monitoring</string>
+    <string name="photograph">Photo Manager</string>
+    <string name="spacemanagement">Space Management</string>
+    <string name="savingpower">Power saving</string>
+    <string name="gramefaster">Game speed-up</string>
+    <string name="secretprotection">Open privacy protection</string>
+
+    <!-- 	MainFragment -->
+
+    <!-- 布局中用到的-->
+    <string name="speed">Junk</string>
+    <string name="batmajor">Battery</string>
+    <string name="appliction">Apps</string>
+    <string name="virus">Antivirus</string>
+    <string name="flow">Cellular</string>
+    <string name="more">More</string>
+    <string name="gift">Gift</string>
+    <string name="more_des">More features, stay tuned</string>
+
+    <string name="quit">Cancel</string>
+
+    <string name="unit">%</string>
+    <string name="over1">Clean memory successful</string>
+    <string name="over2">Clean cache successful</string>
+    <string name="over3">Temperature</string>
+    <string name="overmajor">Successful</string>
+    <string name="completed">Complete</string>
+
+    <!-- java类中的-->
+    <string name="checking">Scan</string>
+    <string name="recheck">Recheck</string>
+    <string name="checking_des_f">Scanning, Please wait</string>
+    <string name="checking_des_s">Rescan,Please wait</string>
+    <string name="checking_des_t">Last major has canceled,please recheck!</string>
+
+    <string name="majorization">Boost</string>
+    <string name="major_des_g">Please optimize </string>
+    <string name="major_des_b">Please optimize</string>
+    <string name="des_unit">item to improve performance.</string>
+
+    <string name="majoring">Boosting</string>
+    <string name="MajoredCount"> Completed:</string>
+
+    <string name="overmajorizate">Scanning for memory</string>
+    <string name="rubbishcleaned">Scanning for redundancy</string>
+    <string name="temperature">Scanning for temperature</string>
+
+    <string name="majored">Boosted</string>
+    <string name="hasMajored">Last Optimized Time: Today </string>
+
+
+
+    <!-- 	CleanFragment -->
+    <string name="check">Scanning</string>
+    <string name="cleanning">cleaning</string>
+    <string name="status">BestCondition</string>
+    <string name="clicktoclean">Clean</string>
+    <string name="cleanable">Junk</string>
+    <string name="overclean">Cleared</string>
+    <string name="rubbishfile">Junk Files</string>
+
+    <string name="groupname1">Memory</string>
+    <string name="groupname2">System</string>
+    <string name="groupname3">Application</string>
+    <string name="groupname4">UselessAPK</string>
+    <string name="groupname5">JunkFiles</string>
+
+
+    <!--    AppFragment -->
+    <string name="userapp">Installed</string>
+    <string name="sysapp">System</string>
+    <string name="app_button_uninstall">Uninstall</string>
+    <string name="app_button_backup">Backup</string>
+    <string name="noChoice">Not choose any app!</string>
+
+
+    <!-- 	BatteryFragment -->
+    <string name="battery_temp">Mobile Tem</string>
+    <string name="battery_voltage">Vol</string>
+    <string name="saveelec">ClickToSavePower</string>
+    <string name="alreadysave">Alreadysave</string>
+    <string name="volume">Power</string>
+    <string name="time">Available time</string>
+    <string name="call">3G Talk</string>
+    <string name="wifi">WIFI Internet</string>
+    <string name="film">Movie Player</string>
+    <string name="standby">Can Standby</string>
+    <string name="hour">H</string>
+    <string name="minute">M</string>
+    <string name="battery_sleep_text">Clean after locking</string>
+    <string name="battery_rinking_text">Power consumption ranking</string>
+    <string name="detail">Details page</string>
+
+    <string name="exception_text">Abnormal Power Consumption Reminder</string>
+    <string name="exception">Abnormal power consumption</string>
+    <string name="particulars_transport_text">Data Transfer</string>
+    <string name="particulars_cpu_text">CPU Occupancy</string>
+    <string name="particulars_text">Power consumption details </string>
+    <string name="battery_see">View </string>
+    <string name="notify">System process, can not be uninstalled!</string>
+    <string name="see">System app, can not see</string>
+
+    <string name="fen">Minute</string>
+    <string name="second">Second</string>
+    <string name="millisecond">millisecond</string>
+    <string name="consumption">ConsumePower</string>
+    <string name="charging">Fast Charging</string>
+    <string name="overtime">Remaining time to complete</string>
+    <string name="over">Charge Complete</string>
+
+
+    <!--AntivirusFragment-->
+    <!-- Layout-->
+    <string name="virus_des">Scanned</string>
+    <string name="virus_show1">Please rescan for safe</string>
+    <string name="trojans">Trojan Virus</string>
+    <string name="risk"> Risk Applications</string>
+    <string name="notfound">Not Found</string>
+    <string name="startscan">Start scanning</string>
+    <string name="stopscan">Stop</string>
+
+    <!-- java class-->
+    <string name="virus_tag">Risk\nTotal</string>
+    <string name="norisk">No Risk</string>
+    <string name="preparing">Preparing</string>
+    <string name="virus_show2">Scan Finished</string>
+    <string name="virus_show3">Scanning has been canceled; please rescan</string>
+
+    <string name="notrojans">No trojan virus</string>
+    <string name="noriskapp">No risk application</string>
+
+    <!--MonitorFragmnet-->
+    <!-- Layout-->
+    <string name="flow_rank">Cellular consumption rank</string>
+    <string name="flow_setting">Flow setting</string>
+    <string name="flow_des1">Daily cellular used</string>
+    <string name="flow_des2">0MB has been used</string>
+    <string name="flow_des3">The remaining days is 0</string>
+
+    <string name="flow_top_line">Flow upper limit</string>
+    <string name="avaiable_flow">Input available flow</string>
+    <string name="out_of_date">The expiration time </string>
+    <string name="least_time">The remaining days are 0 days</string>
+    <string name="least">The remaining days are</string>
+    <string name="day">days</string>
+    <string name="start_time">The start date of each month</string>
+    <string name="time_left">Remaining Time</string>
+    <string name="save">Save</string>
+
+    <string name="flow_least">MB\nremain</string>
+
+    <string name="toast1">Unable to display data; please open data flow.</string>
+    <string name="toast2">Data flow is turned on;data could be set</string>
+    <string name="toast3">Data has not been set</string>
+    <string name="dialog1">Network Settings Tip</string>
+    <string name="dialog2">Network is not connected; setting or not?</string>
+    <string name="dialog3">Setting</string>
+    <string name="dialog4">Cancel</string>
+    <string name="usedflow">Used flow</string>
+    <string name="leftday">Remaining days</string>
+    <string name="flowtop">Flow limit can\'t be empty</string>
+    <string name="let">Remaining</string>
+
+    <!--morefragment-->
+    <string name="evaluation">Rate</string>
+    <string name="notice">Notification</string>
+    <string name="tickerText">Protected by DeepClean!</string>
+    <string name="nosetting">Settings</string>
+    <string name="used">Used</string>
+    <string name="usedmem">Mem.Used</string>
+
+    <string name="words">Words</string>
+    <string name="app_list_text">textview</string>
+    <string name="title_activity_battery">BatteryActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_battery_ranklist">BatteryRanklistActivity</string>
+    <string name="title_activity_particulars">ParticularsActivity</string>
+    <string name="title_activity_service_usb">ServiceUSBActivity</string>
+    <string name="title_activity_succeed">SucceedActivity</string>
+
+    <string name="facebook_app_id" translatable="false">271229513249389</string>
+
+    <string name="left">Left</string>
+    <string name="hr">hr</string>
+    <string name="min">min</string>
+
+</resources>

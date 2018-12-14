@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:gravity="center_vertical">
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo1"/>
+
+    <LinearLayout
+        android:id="@+id/ll_notice_f"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_used"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/used"
+            android:textSize="12sp"
+            android:textColor="@color/text_gray"/>
+        <TextView
+            android:id="@+id/tv_notice_flow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/bg_green"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_notice_s"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7">
+            <ImageView
+                android:id="@+id/iv_no"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:id="@+id/tv_per"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="10dp"
+                android:textColor="@color/text_gray"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_memused"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="@string/usedmem"
+            android:textSize="10sp"
+            android:textColor="@color/text_gray"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_notice_t"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/notice_bat"/>
+            <TextView
+                android:id="@+id/tv_notice_bat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/text_gray"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/notice_tem"/>
+            <TextView
+                android:id="@+id/tv_notice_tem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/text_gray"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_notice_e"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:src="@drawable/notice_save"/>
+        <TextView
+            android:id="@+id/tv_savepower"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="@string/saveelec"
+            android:textSize="10sp"
+            android:textColor="@color/text_gray"/>
+
+    </LinearLayout>
+
+</LinearLayout>

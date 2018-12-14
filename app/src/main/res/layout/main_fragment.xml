@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_green"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_main_ybv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5">
+
+            <com.catchgift.trashclear.mainfragment.YiBiaoView
+                android:id="@+id/ybv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="35dp" />
+
+            <Button
+                android:id="@+id/bt_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:background="@drawable/bg_start_selector"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:paddingRight="25dp"
+                android:paddingLeft="25dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/text_white"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+
+        <LinearLayout
+            android:id="@+id/ll_major"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:id="@+id/ll_parent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"/>
+
+            <Button
+                android:id="@+id/bt_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/quit"
+                android:textSize="18sp"
+                android:textColor="@color/text_gray"
+                android:background="@drawable/bg_cancel_selector" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingTop="35dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_speed"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/button1_selector"
+                    android:text="@string/speed"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_black"
+                    android:drawablePadding="5dp"
+                    android:background="@color/transparent" />
+
+                <Button
+                    android:id="@+id/bt_battery"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/button2_selector"
+                    android:text="@string/batmajor"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_black"
+                    android:drawablePadding="5dp"
+                    android:background="@color/transparent" />
+
+                <Button
+                    android:id="@+id/bt_app"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/button3_selector"
+                    android:text="@string/appliction"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_black"
+                    android:drawablePadding="5dp"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_virus"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/button4_selector"
+                    android:text="@string/virus"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_black"
+                    android:drawablePadding="5dp"
+                    android:background="@color/transparent" />
+
+                <Button
+                    android:id="@+id/bt_flow"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/button5_selector"
+                    android:text="@string/flow"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_black"
+                    android:drawablePadding="5dp"
+                    android:background="@color/transparent" />
+
+                <Button
+                    android:id="@+id/bt_more"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/button6_selector"
+                    android:text="@string/more"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_black"
+                    android:drawablePadding="5dp"
+                    android:background="@color/transparent"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_result_fen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/fen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="55dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unit"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:paddingTop="10dp"
+            android:layout_toRightOf="@id/fen"
+            android:layout_alignTop="@id/fen" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="@string/overmajor"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/fen"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_result_item"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/rl_f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/over1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_mem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/darker_gray"
+                android:layout_alignParentRight="true"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_below="@id/rl_f">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/over2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_rub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/darker_gray"
+                android:layout_alignParentRight="true"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_below="@id/rl_s">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/over3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_tem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/darker_gray"
+                android:layout_alignParentRight="true"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bt_over"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/completed"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_over_selector" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+

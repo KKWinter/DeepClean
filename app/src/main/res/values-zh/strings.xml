@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrashClear</string>
+
+    <!--     MainActivity -->
+    <string name="main">首页</string>
+    <string name="clean">垃圾清理</string>
+    <string name="app">应用管理</string>
+    <string name="battery">电池管家</string>
+    <string name="hint">提示信息：</string>
+    <string name="hintmessage">确定要退出吗?</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <!-- 	SlidingMenu -->
+    <string name="cpu">CPU降温</string>
+    <string name="monitoring">流量监控</string>
+    <string name="photograph">照片管家</string>
+    <string name="spacemanagement">空间管理</string>
+    <string name="savingpower">超强省电</string>
+    <string name="gramefaster">游戏加速</string>
+    <string name="secretprotection">开启隐私保护</string>
+
+    <!-- 	MainFragment -->
+
+    <!-- 布局中用到的-->
+    <string name="speed">清理加速</string>
+    <string name="batmajor">电量优化</string>
+    <string name="appliction">软件管理</string>
+    <string name="virus">病毒扫描</string>
+    <string name="flow">流量监控</string>
+    <string name="more">更多</string>
+    <string name="gift">礼物</string>
+    <string name="more_des">更多功能，敬请期待</string>
+
+
+    <string name="quit">取消</string>
+
+    <string name="unit">%</string>
+    <string name="over1">完成优化内存使用</string>
+    <string name="over2">完成清理系统垃圾</string>
+    <string name="over3">手机温度</string>
+    <string name="overmajor">优化完成</string>
+    <string name="completed">完成</string>
+
+    <!-- java类中的-->
+    <string name="checking">检测中</string>
+    <string name="recheck">重新检测</string>
+    <string name="checking_des_f">正在检测，请稍后...</string>
+    <string name="checking_des_s">正在重新检测，请稍后...</string>
+    <string name="checking_des_t">上次优化已被取消，建议重新检测</string>
+
+    <string name="majorization">点击优化</string>
+    <string name="major_des_g">手机状态良好，建议优化</string>
+    <string name="major_des_b">手机状态较差，建议优化</string>
+    <string name="des_unit">项</string>
+
+    <string name="majoring">优化中</string>
+    <string name="overmajorizate">正在扫描内存占用...</string>
+    <string name="rubbishcleaned">正在扫描缓存垃圾...</string>
+    <string name="temperature">正在检测手机温度...</string>
+
+    <string name="MajoredCount">已经完成优化的项数：</string>
+
+    <string name="majored">已优化</string>
+    <string name="hasMajored">上次优化时间: 今天</string>
+
+
+
+
+    <!-- 	CleanFragment -->
+    <string name="check">正在检测中...</string>
+    <string name="cleanning">正在清理</string>
+    <string name="status">最佳状态</string>
+    <string name="clicktoclean">一键清理</string>
+    <string name="cleanable">可清理</string>
+    <string name="overclean">清理完毕</string>
+    <string name="rubbishfile">垃圾文件</string>
+
+    <string name="groupname1">内存垃圾</string>
+    <string name="groupname2">系统缓存</string>
+    <string name="groupname3">应用缓存</string>
+    <string name="groupname4">无用安装包</string>
+    <string name="groupname5">垃圾文件</string>
+
+
+    <!--    AppFragment -->
+    <string name="userapp">用户应用</string>
+    <string name="sysapp">系统应用</string>
+    <string name="app_button_uninstall">卸载</string>
+    <string name="app_button_backup">备份</string>
+    <string name="noChoice">没有选中任何应用！</string>
+
+
+    <!-- 	BatteryFragment -->
+    <string name="battery_temp">手机温度</string>
+    <string name="battery_voltage">电压</string>
+    <string name="saveelec">一键省电</string>
+    <string name="alreadysave">已省电</string>
+    <string name="volume">电量</string>
+    <string name="time">可用时间</string>
+    <string name="call">3G通话</string>
+    <string name="wifi">WIFI上网</string>
+    <string name="film">电影播放</string>
+    <string name="standby">可待机</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="battery_sleep_text">锁频休眠</string>
+    <string name="battery_rinking_text">耗电排行</string>
+    <string name="detail">详情页</string>
+
+    <string name="exception_text">异常耗电提醒</string>
+    <string name="exception">异常耗电</string>
+    <string name="particulars_transport_text">数据传输</string>
+    <string name="particulars_cpu_text">cpu占用</string>
+    <string name="particulars_text">耗电详情</string>
+    <string name="battery_see">查看</string>
+    <string name="notify">系统进程，不能被卸载！</string>
+    <string name="see">系统应用，无法查看</string>
+
+    <string name="fen">分</string>
+    <string name="second">秒</string>
+    <string name="millisecond">毫秒</string>
+    <string name="consumption">耗电</string>
+    <string name="charging">快速充电中</string>
+    <string name="overtime">完成剩余时间</string>
+    <string name="over">完成充电</string>
+
+    <!--AntivirusFragment-->
+    <!-- 布局中-->
+    <string name="virus_des">今天扫描为安全</string>
+    <string name="virus_show1">建议立即扫描</string>
+    <string name="trojans">木马病毒</string>
+    <string name="risk">风险应用</string>
+    <string name="notfound">未发现</string>
+    <string name="startscan">开始扫描</string>
+    <string name="stopscan">停止</string>
+
+    <!-- java类中-->
+    <string name="virus_tag">风险\n总计</string>
+    <string name="norisk">暂无风险</string>
+    <string name="preparing">准备中</string>
+    <string name="virus_show2">扫描安全</string>
+    <string name="virus_show3">扫描已取消，请重新扫描</string>
+
+    <string name="notrojans">未发现木马病毒</string>
+    <string name="noriskapp">未发现风险应用</string>
+
+    <!--MonitorFragmnet-->
+    <!-- 布局中-->
+    <string name="flow_rank">流量排行</string>
+    <string name="flow_setting">流量设置</string>
+    <string name="flow_des1">当前使用日常流量</string>
+    <string name="flow_des2">已使用0MB流量</string>
+    <string name="flow_des3">剩余天数为0天</string>
+
+    <string name="flow_top_line">流量上限</string>
+    <string name="avaiable_flow">输入可用流量</string>
+    <string name="out_of_date">过期时间</string>
+    <string name="least_time">剩余0天</string>
+    <string name="least">剩余</string>
+    <string name="day">天</string>
+    <string name="start_time">每月起始日期</string>
+    <string name="time_left">剩余时间</string>
+    <string name="save">保存</string>
+
+    <string name="flow_least">MB\n剩余</string>
+
+    <string name="toast1">无法显示数据，请开启数据流量</string>
+    <string name="toast2">数据流量已开启，可以设置数据</string>
+    <string name="toast3">尚未设置数据</string>
+    <string name="dialog1">网络设置提示</string>
+    <string name="dialog2">网络连接未开启,是否进行设置?</string>
+    <string name="dialog3">设置</string>
+    <string name="dialog4">取消</string>
+    <string name="usedflow">已经使用流量</string>
+    <string name="leftday">剩余天数为</string>
+    <string name="flowtop">流量上限不能为空</string>
+    <string name="let">剩余</string>
+
+    <!--morefragment-->
+    <string name="evaluation">去评分</string>
+    <string name="notice">开启通知栏</string>
+    <string name="tickerText">Deepclean 正在保护你的设备！</string>
+    <string name="nosetting">未设置</string>
+    <string name="used">已使用</string>
+    <string name="usedmem">内存占用</string>
+
+
+    <string name="words">Words</string>
+    <string name="app_list_text">textview</string>
+    <string name="title_activity_battery">BatteryActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_battery_ranklist">BatteryRanklistActivity</string>
+    <string name="title_activity_particulars">ParticularsActivity</string>
+    <string name="title_activity_service_usb">ServiceUSBActivity</string>
+    <string name="title_activity_succeed">SucceedActivity</string>
+
+    <string name="left">剩余</string>
+    <string name="hr">时</string>
+    <string name="min">分</string>
+</resources>
