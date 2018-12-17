@@ -55,7 +55,7 @@
             android:text="@string/app_list_text"
             android:textSize="20sp" />
 
-        <com.catchgift.trashclear.view.MonitorProgressBar
+        <com.ddong.qingjie.view.MonitorProgressBar
             android:id="@+id/particulars_battery"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
