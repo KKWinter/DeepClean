@@ -3,16 +3,12 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion '23.0.3'
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.ddong.qingjie"
         minSdkVersion 15
         targetSdkVersion 26
-        compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_7
-            targetCompatibility JavaVersion.VERSION_1_7
-        }
 
         multiDexEnabled true
     }
@@ -27,6 +23,11 @@ android {
     dexOptions {
         preDexLibraries false
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
 }
 
 repositories{
@@ -35,21 +36,21 @@ repositories{
 
 dependencies {
     //noinspection GradleCompatible
-    compile 'com.android.support:appcompat-v7:26.1.0'
-    compile files('libs/slidingmenu.jar')
-    compile files('libs/umeng-update-v2.6.0.1.jar')
-    compile 'com.umeng.analytics:analytics:latest.integration'
-    compile files('libs/xUtils-2.6.10.jar')
-    compile files('libs/BattRankSupport.jar')
-    compile files('libs/nineoldandroids-2.4.0.jar')
-    compile 'com.google.android.gms:play-services-analytics:9.0.0'
-    compile project(':adjust')
-    compile 'com.google.firebase:firebase-ads:9.0.0'
-    compile 'com.facebook.android:audience-network-sdk:4.13.0'
-    compile 'com.facebook.android:facebook-android-sdk:4.15.0'
-    compile files('libs/volley-library-1.0.19.jar')
-    compile 'com.android.installreferrer:installreferrer:1.0'
-    compile files('libs/zcoup_base_1.0.0.jar')
-    compile 'com.facebook.fresco:fresco:1.10.0'
-    compile 'com.android.support:multidex:1.0.1'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation files('libs/slidingmenu.jar')
+    implementation files('libs/umeng-update-v2.6.0.1.jar')
+    implementation 'com.umeng.analytics:analytics:latest.integration'
+    implementation files('libs/xUtils-2.6.10.jar')
+    implementation files('libs/BattRankSupport.jar')
+    implementation files('libs/nineoldandroids-2.4.0.jar')
+    implementation 'com.google.android.gms:play-services-analytics:9.0.0'
+    implementation project(':adjust')
+    implementation 'com.google.firebase:firebase-ads:9.0.0'
+    implementation 'com.facebook.android:audience-network-sdk:4.13.0'
+    implementation 'com.facebook.android:facebook-android-sdk:4.15.0'
+    implementation files('libs/volley-library-1.0.19.jar')
+    implementation 'com.android.installreferrer:installreferrer:1.0'
+    implementation files('libs/zcoup_base_1.0.0.jar')
+    implementation 'com.facebook.fresco:fresco:1.10.0'
+    implementation 'com.android.support:multidex:1.0.3'
 }
