@@ -5,16 +5,34 @@ android {
     compileSdkVersion 26
     buildToolsVersion '28.0.3'
 
+
+    signingConfigs {
+        releaseConfig {
+            keyAlias        'yeahmobi'
+            keyPassword     'yeahmobi'
+            storeFile       file('YeahMobi')
+            storePassword   'yeahmobi'
+        }
+    }
+
     defaultConfig {
         applicationId "com.ddong.qingjie"
         minSdkVersion 15
         targetSdkVersion 26
+        versionCode 6
+        versionName "3.0"
 
         multiDexEnabled true
     }
 
     buildTypes {
         release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.releaseConfig
+        }
+
+        debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
@@ -28,9 +46,13 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_7
         targetCompatibility JavaVersion.VERSION_1_7
     }
+
+    lintOptions {
+        abortOnError false
+    }
 }
 
-repositories{
+repositories {
     mavenCentral()
 }
 
